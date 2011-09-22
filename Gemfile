@@ -8,12 +8,20 @@ gem 'rails', '3.1.0'
 gem 'sqlite3'
 
 group :development do
-  gem 'rspec-rails', '2.6.1'
+  gem 'rspec-rails', '>= 2.0.0.beta.18'
+  gem 'autotest'
+  gem 'autotest-rails'
+  gem 'autotest-growl'
+  gem 'autotest-fsevent'
 end
 
 group :test do
-  gem 'rspec-rails', '2.6.1'
+  gem 'rspec-rails', '>= 2.0.0.beta.18'
   gem 'webrat', '0.7.1'
+  gem 'autotest'
+  gem 'autotest-rails'
+  gem 'autotest-growl'
+  gem 'autotest-fsevent'
 end
 
 gem 'jquery-rails'
