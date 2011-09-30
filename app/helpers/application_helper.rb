@@ -8,5 +8,6 @@ module ApplicationHelper
       base_title
     else
       "#{base_title} | #{@title}"
+    end
   end
 end
