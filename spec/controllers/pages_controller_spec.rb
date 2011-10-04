@@ -40,4 +40,29 @@ describe PagesController do
       response.should have_selector("title", :content => "#{@base_title} | About")
     end
   end 
+  
+  describe "GET 'help'" do
+    it "should be successful" do
+      get 'help'
+      response.should be_success
+      response.should have_selector("title", :content => "#{@base_title} | Help")
+    end
+  end
+  
+  describe "GET 'signin'" do
+    it "should be successful" do
+      get 'signin'
+      response.should be_success
+      response.should have_selector("title", :content => "#{@base_title} | Sign In")
+    end
+  end
+  
+  describe "GET 'signup'" do
+    it "should be successful" do
+      get 'signup'
+      response.should be_success
+      response.should have_selector("title", :content => "#{@base_title} | Sign Up")
+    end
+  end
+  
 end
