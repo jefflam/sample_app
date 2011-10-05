@@ -57,12 +57,6 @@ describe PagesController do
     end
   end
   
-  describe "GET 'signup'" do
-    it "should be successful" do
-      get 'signup'
-      response.should be_success
-      response.should have_selector("title", :content => "#{@base_title} | Sign Up")
-    end
-  end
+
   
 end
