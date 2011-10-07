@@ -22,6 +22,7 @@ group :test do
   gem 'autotest-rails'
   gem 'autotest-growl'
   gem 'autotest-fsevent'
+  gem 'factory_girl_rails'
 end
 
 gem 'jquery-rails'
