@@ -49,13 +49,13 @@ describe PagesController do
     end
   end
   
-  describe "GET 'signin'" do
-    it "should be successful" do
-      get 'signin'
-      response.should be_success
-      response.should have_selector("title", :content => "#{@base_title} | Sign In")
-    end
-  end
+  # describe "GET 'signin'" do
+  #   it "should be successful" do
+  #     get 'signin'
+  #     response.should be_success
+  #     response.should have_selector("title", :content => "#{@base_title} | Sign In")
+  #   end
+  # end
   
 
   

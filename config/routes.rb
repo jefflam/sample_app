@@ -5,12 +5,13 @@ SampleApp::Application.routes.draw do
 
   root :to => 'pages#home'
   match '/contact' => 'pages#contact'
-  match '/about' => 'pages#about'
-  match '/help' => 'pages#help'
+  match '/about'   => 'pages#about'
+  match '/help'    => 'pages#help'
   match '/contact' => 'pages#contact'
-  match '/signup' => 'users#new'
-  match '/signin' => 'sessions#new'
+  match '/signup'  => 'users#new'
+  match '/signin'  => 'sessions#new'
   match '/signout' => 'sessions#destroy'
+
   
 
 #  get "pages/home"
