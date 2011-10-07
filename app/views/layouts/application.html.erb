@@ -8,10 +8,12 @@
 	<body>
 		<div class="container">
 			<%= render 'layouts/header' %>
-		</div>
 		<section>
 		<%= yield %>
 		</section>
-		<%= debug(params) if Rails.env.development? %> <!-- only show debug in development environment and not test nor production env >
+		<%= debug(params) if Rails.env.development? %> <!-- only show debug in development environment and not test nor production env -->
+		
+		</div>
+		
 	</body>
 </html>

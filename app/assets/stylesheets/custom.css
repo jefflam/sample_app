@@ -10,16 +10,31 @@ header {
 	padding-top:20px;
 }
 
+header .logo {
+	float:left;
+}
+
+header nav {
+	float:right;
+	background-color:#fff;
+}
+
+header ul li {
+	list-style:none;
+	float:left;
+	margin-left:20px;
+}
+
 header img {
 	padding: 1em;
 	background: #fff;
 }
 
 section {
-	margin-top: 1em;
+	margin-top: 5em;
 	font-size:120%;
 	padding: 20px;
-	background #fff;
+	background: #fff;
 }
 
 /* Links */
@@ -60,4 +75,8 @@ td.sidebar {
 .profile img.gravatar {
 	border:1px solid #999;
 	margin-bottom:-15px;
+}
+
+div.field, div.actions {
+	margin-bottom: 10px;
 }
